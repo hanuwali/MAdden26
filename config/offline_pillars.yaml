@@ -1,0 +1,22 @@
+product:
+  title: "Madden 26 – 3D Offline Ultra Simulation Edition"
+  mode: "single_player_offline"
+
+hard_constraints:
+  online_multiplayer: false
+  live_services: false
+  microtransactions: false
+  mandatory_login: false
+  cloud_save_required: false
+
+offline_systems:
+  adaptive_ai_local_learning: true
+  local_save_profiles: true
+  local_franchise_simulation: true
+  local_career_progression: true
+
+compliance_checks:
+  - "Shipping build excludes online netcode modules"
+  - "All game modes start without network connectivity"
+  - "No storefront or purchase UI routes"
+  - "No remote entitlement checks"
